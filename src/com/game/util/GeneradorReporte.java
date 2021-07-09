@@ -27,7 +27,7 @@ public class GeneradorReporte {
 
 	private static void inicializar() throws IOException {
 		registros = new ArrayList<List<String>>();
-		csvWriter = new FileWriter("./reporteJuevo.csv", true);
+		csvWriter = new FileWriter("./reporteJuego.csv", true);
 	}
 	
 	public static void procesarInformacion(List<Carro> corredores) throws IOException {
